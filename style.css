@@ -144,6 +144,27 @@ body{
 }
 
 
+.Slides1{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 25px;
+    margin-bottom: 50px;
+    animation: RollIn 2s;
+}
+
+.Slide1{
+    display: none;
+    transition: transform ease 0.5s;
+}
+
+.Slide1:hover{
+    transform: scale(1.1);
+}
+
+
+
 .Slides2{
     display: flex; 
     flex-wrap: wrap; 
@@ -191,9 +212,16 @@ body{
     
 }
 
+
+.Product{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
 .Product h1{
-    margin-top: 15vh;
-    margin-bottom: 10vh;
     width: 100%;
     text-align: center;
     animation: RollIn 2s;
