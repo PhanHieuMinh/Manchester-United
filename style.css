@@ -1,21 +1,25 @@
+.body{
+    width: 100%;
+}
 .menu{
     background-color: #c80404;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 300px;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     top:0;
     left:0;
+    right: 0;
     z-index: 1;
 }
 
 .menu-main{
     display: flex;
     align-items: flex-start;
-    width: 55%;
+    width: 45%;
     height: 100%;
 }
 
@@ -24,8 +28,8 @@
     border-radius: 50%;
     padding: 5px;
     margin-top: 30px;
-    margin-left: 18%;
-    margin-right: 90px;
+    margin-left: 30px;
+    margin-right: 55px;
     height: 225px;
     width: 225px;
 
@@ -102,7 +106,6 @@
 
 
 .menu-img{
-    width: 45%;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -144,4 +147,61 @@
 
 .home-menu a:hover{
     color: green;
+}
+
+
+
+.main-contents{
+    background-color: lightgray;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.main-contents div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-contents hr{
+    width: 100%;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.main-content a{
+    text-decoration: none;
+}
+
+
+.content img{
+    width: 75%;
+}
+
+
+.title{
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.text{
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 20px;
 }
