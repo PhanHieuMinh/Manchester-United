@@ -157,6 +157,7 @@ body{
 .Slide1{
     display: none;
     transition: transform ease 0.5s;
+    padding: 1px;
 }
 
 .Slide1:hover{
@@ -175,9 +176,10 @@ body{
     animation: RollIn 2s;
 }
 
-.Slide2 {
+.Slide2{
     display: none;
     transition: transform ease 0.5s;
+    padding: 1px;
 }
 
 .Slide2:hover{
@@ -198,6 +200,7 @@ body{
 .Slide3{
     display: none;
     transition: transform ease 0.5s;
+    padding: 1px;
 }
 
 .Slide3:hover{
