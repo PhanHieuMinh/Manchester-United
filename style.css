@@ -1,6 +1,12 @@
-.body{
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+hr{
     width: 100%;
 }
+
 .menu{
     background-color: #c80404;
     position: absolute;
@@ -14,6 +20,7 @@
     left:0;
     right: 0;
     z-index: 1;
+
 }
 
 .menu-main{
@@ -21,6 +28,7 @@
     align-items: flex-start;
     width: 45%;
     height: 100%;
+    
 }
 
 .menu-logo{
@@ -53,38 +61,38 @@
 }
 
 
-.stadium{
+.stadium-icon{
     display: flex;
     align-items: center;
 }
 
-.stadium img{
+.stadium-icon img{
     height: 30px;
     width: 30px;
     padding-right: 20px;
 }
 
-.website{
+.website-icon{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 
-.website a{
+.website-icon a{
     text-decoration: none;
     color: white;
     margin-left: 5px;
 }
 
-.website img{
+.website-icon img{
     height: 30px;
     width: 30px;
     padding-right: 20px;
 }
 
 
-.social a img{
+.social-icon a img{
     height: 30px;
     background-color: white;
     border-radius: 50%;
@@ -92,11 +100,11 @@
 }
 
 
-.social a img:hover{
+.social-icon a img:hover{
     background-color: lightgray;
 }
 
-.share{
+.share-icon{
     height: 30px;
     width: 30px;
     padding-right: 20px;
@@ -118,6 +126,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -152,11 +161,14 @@
 
 
 .Info{
+    margin-top: 50px;
     width: 25%;
     margin-left: 37.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px gray solid;
+    padding: 10px;
 }
 
 .Info-logo{
@@ -164,6 +176,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px gray solid;
 }
 
 
@@ -179,12 +193,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px gray solid;
 }
 
 .Info-text p{
     width: 50%;
     font-size: 18px;
-    border: 1px black;
 }
 
 
@@ -197,6 +211,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -238,10 +253,69 @@
     display: flex;
     justify-content: flex-start;
     text-align: left;
+
+
 }
 
 .text{
     width: 75%;
     margin-left: 12.5%;
     font-size: 22px;
+
+
 }
+
+
+.players{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.player{
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 20%;
+    height: 100%;
+}
+
+.player img{
+    margin: 10px 0px;
+    border-radius: 50%;
+    width: 120px;
+}
+
+.player div{
+    width: 100%;
+    background-color: lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.player-shirt-number{
+    font-weight: bold;
+}
+
+.player-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.player-name:hover{
+    color:red
+}
+
+.player-postition{
+    color: gray;
+}
+
