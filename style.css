@@ -13,7 +13,6 @@ hr{
     width: 100%;
     height: 300px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     top:0;
@@ -37,7 +36,7 @@ hr{
     padding: 5px;
     margin-top: 30px;
     margin-left: 30px;
-    margin-right: 55px;
+    margin-right: 45px;
     height: 225px;
     width: 225px;
 
@@ -119,6 +118,7 @@ hr{
 
 .menu-img{
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    height: 100%;
 }
 
 
