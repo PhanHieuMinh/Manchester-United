@@ -160,6 +160,21 @@ hr{
 
 
 
+.main-title{
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.main-title p{
+    font-size: 22px;
+}
+
+
 .Info{
     margin-top: 50px;
     width: 25%;
@@ -253,7 +268,7 @@ hr{
     display: flex;
     justify-content: flex-start;
     text-align: left;
-
+    font-size: 20px;
 
 }
 
