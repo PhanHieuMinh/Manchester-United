@@ -85,6 +85,10 @@ hr{
     margin-left: 5px;
 }
 
+.website-icon a:hover{
+    color: black;
+}
+
 .website-icon img{
     height: 30px;
     width: 30px;
