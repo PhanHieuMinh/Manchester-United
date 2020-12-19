@@ -172,7 +172,7 @@ hr{
     justify-content: center;
     margin-left: -19%;
     animation: disapear 1s infinite;
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 }
 
 .video iframe{
@@ -244,7 +244,7 @@ hr{
     flex-wrap: wrap;
     border: 1px gray solid;
     padding: 10px;
-    animation: RollIn 6.5s;
+    animation: RollIn 6s;
 }
 
 .Info-logo{
