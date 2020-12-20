@@ -196,14 +196,9 @@ hr{
 @keyframes RollIn{
     0% {
         opacity: 0;
-        height: 0;
         
     }
 
-    25%{
-        opacity: 0;
-        height: 0;
-    }
     50%{
         transform: translate3d(-10%, 0, 0) ;
         opacity: 0;
