@@ -166,7 +166,7 @@ hr{
     color: red;
 }
 
-
+/* 
 .video{
     clip-path: polygon(53% 15%, 88% 15%, 88% 85%, 53% 85%);
     height: 750px;
@@ -175,16 +175,16 @@ hr{
     justify-content: center;
     margin-left: -19%;
     animation: disapear 1s infinite;
-    animation-delay: 3.0s;
+    animation-delay: 4.0s;
 }
 
 .video iframe{
     width: 100%;
     height: 100%;
-}
+} */
 
 
-@keyframes disapear{
+/* @keyframes disapear{
     0%{
         display: none;
         height: 0;
@@ -193,20 +193,12 @@ hr{
         display: none;
         height: 0;
     }
-}
+} */
 
 
 @keyframes RollIn{
-    0% {
-        opacity: 0;
-        
-    }
-
-    50%{
+    0%{
         transform: translate3d(-10%, 0, 0) ;
-        opacity: 0;
-    }
-    60%{
         opacity: 0;
     }
     100% {
@@ -242,7 +234,7 @@ hr{
     flex-wrap: wrap;
     border: 1px gray solid;
     padding: 10px;
-    animation: RollIn 5.5s;
+    animation: RollIn 2s;
 }
 
 .Info-logo{
@@ -281,6 +273,10 @@ hr{
 }
 
 
+.main-title{
+    animation: RollIn 2s;
+}
+
 
 .main-contents{
     background-color: lightgray;
@@ -290,7 +286,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    animation: RollIn 2s;
 }
 
 
@@ -337,6 +333,11 @@ hr{
 
 }
 
+
+.contents{
+    animation: RollIn 2s;
+}
+
 .text{
     width: 75%;
     margin-left: 12.5%;
@@ -353,6 +354,7 @@ hr{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    animation: RollIn 2s;
 }
 
 .player{
