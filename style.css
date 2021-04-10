@@ -1,3 +1,7 @@
+:root{
+    --spSmall: 30px;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -67,8 +71,8 @@ hr{
 }
 
 .stadium-icon img{
-    height: 30px;
-    width: 30px;
+    height: var(--spSmall);
+    width: var(--spSmall);
     padding-right: 20px;
 }
 
@@ -90,8 +94,8 @@ hr{
 }
 
 .website-icon img{
-    height: 30px;
-    width: 30px;
+    height: var(--spSmall);
+    width: var(--spSmall);
     padding-right: 20px;
 }
 
@@ -100,7 +104,7 @@ hr{
 }
 
 .social-icon a img{
-    height: 30px;
+    height: var(--spSmall);
     background-color: white;
     border-radius: 50%;
 
@@ -112,8 +116,8 @@ hr{
 }
 
 .share{
-    height: 30px;
-    width: 30px;
+    height: var(--spSmall);
+    width: var(--spSmall);
     margin-right: 14px;
 }
 
@@ -226,12 +230,8 @@ hr{
 
 .Info{
     margin-top: 50px;
-    width: 25%;
+    width: 20%;
     margin-left: 37.5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
     border: 1px gray solid;
     padding: 10px;
     animation: RollIn 2s;
@@ -345,6 +345,7 @@ hr{
 
 
 }
+
 
 
 .players{
