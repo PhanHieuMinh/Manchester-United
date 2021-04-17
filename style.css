@@ -370,6 +370,22 @@ hr{
     height: 100%;
 }
 
+
+.player button{
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+}
+
+.player button:hover{
+    cursor: pointer;
+    color: red;
+}
+
 .player p{
     margin-left: 5px;
 }
@@ -423,6 +439,143 @@ hr{
     align-items: center;
     position: relative;
 }
+
+
+
+
+
+
+
+.player-home{
+    display: flex;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-bottom: 2px lightgray solid;
+    animation: RollIn 2s;
+}
+
+.player-home h1{
+    height: 0px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.player-img{
+    margin-right: 25px;
+}
+
+.player-img img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.player-team{
+    font-weight: bold;
+}
+
+
+.player-team a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    font-weight: normal;
+}
+
+.player-team a:hover{
+     color: #c80404;
+}
+
+
+.player-team{
+    display: flex;
+}
+
+
+.player-social a img{
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.player-social a img:hover{
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 550px;
+    overflow-y: scroll;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer p{
