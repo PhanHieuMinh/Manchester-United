@@ -52,7 +52,7 @@
             <a href="index.html">Trang chủ</a>
             <a href="Tiểu-sử.html">Tiểu sử</a>
             <a href="Danh-hiệu.html">Danh hiệu</a>
-            <a href="Cầu-thủ.html" style="background-color: rgba(0, 0, 0, 0.5);">Cầu thủ</a>
+            <a href="Cầu-thủ.html" onMouseOver="this.style.color='White'" onMouseOut="this.style.color='black'" style="background-color: rgba(0, 0, 0, 0.5);">Cầu thủ</a>
             <a href="Huấn-luyện-viên.html">Huấn luyện viên</a>
             <a href="Sân-vận-động.html">Sân vận động</a>
         </div>
@@ -66,7 +66,7 @@
                 <img src="Images/1-David-DeGea-ThuMon.jpg" alt="">
                 <div>
                     <p class="player-shirt-number">1</p>
-                    <button id="1">David de Gea</button>
+                    <button id="button1">David de Gea</button>
                     <p class="player-postition">Thủ môn</p>
                 </div>
                 
@@ -155,7 +155,7 @@
                 <img src="Images/5-Harry-Maguire-HauVe.jpg" alt="">
                 <div>
                     <p class="player-shirt-number">5</p>
-                    <a href="Players/Harry-Maguire.html" class="player-name" target="_blank"><p>Harry Maguire</p></a>
+                    <button id="button4">Harry Maguire</button>
                     <p class="player-postition">Hậu vệ</p>
                 </div>
                 
@@ -222,7 +222,7 @@
                 <img src="Images/6-Paul-Pogba-TienVe.jpg" alt="">
                 <div>
                     <p class="player-shirt-number">6</p>
-                    <a href="Players/Paul-Pogba.html" class="player-name" target="_blank"><p>Paul Pogba</p></a>
+                    <button id="button3">Paul Pogba</button>
                     <p class="player-postition">Tiền vệ</p>
                 </div>
                 
@@ -278,7 +278,7 @@
                 <img src="Images/18-Bruno-Fernandes-TienVe.jpg" alt="">
                 <div>
                     <p class="player-shirt-number">18</p>
-                    <a href="Players/Bruno-Fernandes.html" class="player-name" target="_blank"><p>Bruno Fernandes</p></a>
+                    <button id="button2">Bruno Fernandes</button>
                     <p class="player-postition">Tiền vệ</p>
                 </div>
                 
@@ -336,7 +336,7 @@
                 <img src="Images/10-Marcus-Rashford-TienDao.jpg" alt="">
                 <div>
                     <p class="player-shirt-number">10</p>
-                    <a href="Players/Marcus-Rashford.html" class="player-name" target="_blank"><p>Marcus Rashford</p></a>
+                    <button id="button5">Marcus Rashford</button>
                     <p class="player-postition">Tiền đạo</p>
                 </div>
                 
@@ -358,7 +358,7 @@
     
     
     <!-- The Modal -->
-    <div id="myModal" class="modal">
+    <div id="myModal1" class="modal">
     
       <!-- Modal content -->
       <div class="modal-content">
@@ -521,41 +521,710 @@
     
     </div>
 
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close2" >&times;</span>
+          <div>
+            <div class="player-home">
+                <div class="player-img">
+                    <img src="Images/18-Bruno-Fernandes-TienVe.jpg" alt="">
+                </div>
+                <div class="player-text">
+                    <h1>Bruno Fernandes</h1>
+                    <div class="player-team">
+                        <p>Đội bóng hiện tại:</p>
+                        <a href="/Manchester-United/index.html"><p>Manchester United</p></a>
+                    </div>
+                    <div class="player-social">
+                        <a href="https://www.facebook.com/BrunoFernandesOfficial" target="_blank"><img src="Images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/B_Fernandes8" target="_blank"><img src="Images/twitter.png" alt=""></a>
+                        <a href="https://www.instagram.com/brunofernandes.10/" target="_blank"><img src="Images/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-title">
+                <h1>
+                    Tiểu sử cầu thủ Bruno Fernandes
+                </h1>
+                <p>
+                    Bruno Fernandes là một cầu thủ bóng đá người Bồ Đào Nha thi đấu ở vị trí tiền vệ cho Manchester United 
+                    ở Ngoại hạng Anh và đội tuyển quốc gia Bồ Đào Nha.
+                </p>
+            </div>
+
+            <div class="main-contents">
+                <div>
+                    <h2>Mục lục</h2>
+                </div>
+                <hr>
+                <div class="main-content">
+                    <a href="#1">1. Tiểu sử cầu thủ Bruno Fernandes</a>
+                    <a href="#2">2. Sự nghiệp cầu thủ Bruno Fernandes</a>
+                    <a href="#2.1" style="padding-left: 15px;">2.1. Sự nghiệp câu lạc bộ</a>
+                    <a href="#2.2" style="padding-left: 15px;">2.2. Sự nghiệp đội tuyển quốc gia</a>
+                    <a href="#3">3. Danh hiệu cầu thủ Bruno Fernandes</a>
+                    <a href="#3.1" style="padding-left: 15px;">3.1. Câu lạc bộ</a>
+                    <a href="#3.2" style="padding-left: 15px;">3.2. ĐTQG Bồ Đào Nha</a>
+                    <a href="#3.3" style="padding-left: 15px;">3.3. Cá nhân</a>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="content">
+                    <div class="title">
+                        <h2 id="1">1. Tiểu sử cầu thủ Bruno Fernandes</h2>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Bruno Miguel Borges Fernandes (sinh ngày 8 tháng 9 năm 1994) là một cầu thủ bóng đá người Bồ Đào Nha 
+                            thi đấu ở vị trí tiền vệ cho Manchester United ở Ngoại hạng Anh và đội tuyển quốc gia Bồ Đào Nha.
+                        </p>
+                        <p>
+                            Sinh ra ở Maia, Vùng đô thị Porto, Fernandes chơi hầu hết phần lớn thời còn trẻ cho câu lạc bộ địa phương Boavista FC. 
+                            Vào ngày 27 tháng 8 năm 2012, anh gia nhập Novara Calcio tại Ý. Chỉ sau vài tuần với đội trẻ, 
+                            Fernandes đã được thăng hạng lên đội một ở Serie B, và tiếp tục ra sân hơn một nửa số trận đấu trong mùa giải 2012–13, 
+                            giúp đội của anh ấy đứng thứ 5 và dành vé dự play-off.
+                        </p>
+                        <p>
+                            Vào mùa hè 2013, Fernandes đã ký hợp đồng với Udinese Calcio trong một thỏa thuận đồng sở hữu cầu thủ. 
+                            Anh ra mắt ở Serie A vào ngày 3 tháng 11, vào sân trong hiệp hai trong trận thua 0–3 trên sân nhà trước Inter Milan.
+                        </p>
+                        <img src="Images/Bruno Fernandes.jpg" alt="">
+                        <p>
+                            Ngày 16 tháng 8 năm 2016, Fernandes chuyển đến U.C. Sampdoria theo một bản hợp đồng cho mượn kèm điều khoản mua đứt. 
+                            Anh ra mắt giải đấu 12 ngày sau đó, chơi sáu phút trong chiến thắng 2–1 trên sân nhà trước Atalanta BC.
+                        </p>
+                        <p>
+                            Sau khi trở về từ Giải vô địch bóng đá U-21 châu Âu 2017, ngày 27 tháng 6 năm 2017, Fernandes đã gia nhập 
+                            Sporting CP trong bản hợp đồng 5 năm, với mức phí khoảng 8,5 triệu euro 
+                            cộng với tiền thưởng và điều khoản mua lại là 100 triệu euro.
+                        </p>
+                        <p>
+                            Vào ngày 29 tháng 1 năm 2020, câu lạc bộ Manchester United xác nhận họ đã đạt được thỏa thuận với Sporting
+                             về việc chuyển nhượng Fernandes với mức phí được báo cáo lên tới 68 triệu bảng, 
+                             tùy thuộc vào thành tích của cầu thủ này. Ngày hôm sau, câu lạc bộ chính thức hoàn tất việc ký hợp đồng 
+                             với Fernandes, mức phí ban đầu khoảng 47 triệu bảng, trong hợp đồng năm năm rưỡi.
+                        </p>
+                        <img src="Images/Bruno-Fernandes-Portugal.jpg" alt="">
+                        <p>
+                            Fernandes được gọi lên tuyển lần đầu tiên vào ngày 28 tháng 8 năm 2017, thay thế cho Pizzi 
+                            bị chấn thương ở chiến dịch vòng loại World Cup gặp Quần đảo Faroe và Hungary 
+                            mặc dù anh ấy đã không chơi trong cả hai trận đấu.
+                        </p>
+                        <p>
+                            Fernandes góp mặt cùng đội tuyển Olympic Bồ Đào Nha tham dự Thế vận hội mùa hè 2016. 
+                            Anh bắt đầu mọi trận đấu, khi giúp đội lọt vào vòng tứ kết.
+                        </p>
+                        <p>
+                            Fernandes có trận đấu quốc tế đầu tiên vào ngày 10 tháng 11 năm 2017, thay thế cho Manuel Fernandes 
+                            trong 34 phút cuối trong trận giao hữu với thắng lợi 3–0 trước Saudi Arabia tại Viseu. 
+                            Sau đó, anh được Fernando Santos chọn tham dự FIFA World Cup 2018 tại Nga. 
+                            Anh đã ghi bàn thắng đầu tiên vào ngày 7 tháng 6 trong trận đấu tập cuối cùng trước giải đấu lớn đó, 
+                            mặc dù chịu thất bại 0–3 trước Algeria trên sân Estádio da Luz nhưng anh để lại dấu ấn với 1 bàn thắng 
+                            bằng đầu hiếm hoi trong sự nghiệp của mình.
+                        </p>
+                        <p>
+                            Trận đấu World Cup đầu tiên của Fernandes diễn ra vào ngày 15 tháng 6 năm 2018, 
+                            khi anh chơi 66 phút trong trận hòa 3—3 ở vòng bảng trước Tây Ban Nha.
+                        </p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2 id="2">2. Sự nghiệp cầu thủ Bruno Fernandes</h2>
+                    </div>
+                    <div class="text">
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="2.1">2.1. Sự nghiệp câu lạc bộ</h3>
+                    </div>
+                    <div class="text">
+                        <img src="Images/Bruno Fernandes clb.png" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="2.2">2.2. Sự nghiệp đội tuyển quốc gia</h3>
+                    </div>
+                    <div class="text">
+                        <img src="Images/Bruno Fernandes đtqg.png" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2 id="3">3. Danh hiệu cầu thủ Bruno Fernandes</h2>
+                    </div>
+                    <div class="text">
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="3.1">3.1. Câu lạc bộ</h3>
+                    </div>
+                    <div class="text">
+                        <p>-Sporting:</p>
+                        <ul>
+                            <li>Cúp bóng đá Bồ Đào Nha: 2018–19</li>
+                            <li>Cúp Liên đoàn Bồ Đào Nha: 2017–18, 2018–19</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="3.2">3.2. ĐTQG Bồ Đào Nha</h3>
+                    </div>
+                    <div class="text">
+                        <ul>
+                            <li>UEFA Nations League: 2018-2019</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="3.3">3.3. Cá nhân</h3>
+                    </div>
+                    <div class="text">
+                        <ul>
+                            <li>SJPF - Cầu thủ trẻ của tháng: Tháng 8/2017, 9/2017, Tháng 10/11 năm 2017, Tháng 2/2018, Tháng 4/2018</li>
+                            <li>Giải bóng đá vô địch quốc gia Bồ Đào Nha - Cầu thủ xuất sắc nhất tháng: Tháng 8 /2017, Tháng 9/2017, 
+                                Tháng 4/2018, Tháng 12/2018, Tháng 2/2019, Tháng 3/2019, Tháng 4/2019</li>
+                            <li>Giải bóng đá vô địch quốc gia Bồ Đào Nha - Cầu thủ xuất sắc nhất mùa giải: 2017–18, 2018–19</li>
+                            <li>Giải bóng đá vô địch quốc gia Bồ Đào Nha - Đội hình tiêu biểu của mùa giải: 2017–18, 2018–19</li>
+                            <li>UEFA Europa League - Đội hình tiêu biểu của mùa giải: 2017–18</li>
+                            <li>CNID - Cầu thủ của năm: 2019</li>
+                            <li>Giải vô địch bóng đá các quốc gia châu Âu - Đội hình tiêu biểu vòng chung kết: 2019</li>
+                            <li>Cầu thủ xuất sắc nhất tháng của người hâm mộ PFA: Tháng 2 năm 2020</li>
+                            <li>Cầu thủ Premier League xuất sắc nhất tháng: Tháng 2 năm 2020</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+
+    <!-- The Modal -->
+    <div id="myModal3" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close3" >&times;</span>
+          <div>
+            <div class="player-home">
+                <div class="player-img">
+                    <img src="Images/6-Paul-Pogba-TienVe.jpg" alt="">
+                </div>
+                <div class="player-text">
+                    <h1>Paul Pogba</h1>
+                    <div class="player-team">
+                        <p>Đội bóng hiện tại:</p>
+                        <a href="/Manchester-United/index.html"><p>Manchester United</p></a>
+                    </div>
+                    <div class="player-social">
+                        <a href="https://www.facebook.com/PaulPogba" target="_blank"><img src="Images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/paulpogba" target="_blank"><img src="Images/twitter.png" alt=""></a>
+                        <a href="https://www.instagram.com/paulpogba/" target="_blank"><img src="Images/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-title">
+                <h1>
+                    Tiểu sử cầu thủ Paul Pogba
+                </h1>
+                <p>
+                    Paul Pogba là cầu thủ người Pháp gốc Guinée hiện đang chơi cho Manchester United và 
+                    đội tuyển bóng đá quốc gia Pháp ở vị trí tiền vệ.
+                </p>
+            </div>
+
+            <div class="main-contents">
+                <div>
+                    <h2>Mục lục</h2>
+                </div>
+                <hr>
+                <div class="main-content">
+                    <a href="#1">1. Tiểu sử cầu thủ Paul Pogba</a>
+                    <a href="#2">2. Sự nghiệp cầu thủ Paul Pogba</a>
+                    <a href="#2.1" style="padding-left: 15px;">2.1. Sự nghiệp câu lạc bộ</a>
+                    <a href="#2.2" style="padding-left: 15px;">2.2. Sự nghiệp đội tuyển quốc gia</a>
+                    <a href="#3">3. Danh hiệu cầu thủ Paul Pogba</a>
+                    <a href="#3.1" style="padding-left: 15px;">3.1. Câu lạc bộ</a>
+                    <a href="#3.2" style="padding-left: 15px;">3.2. ĐTQG Pháp</a>
+                    <a href="#3.3" style="padding-left: 15px;">3.3. Cá nhân</a>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="content">
+                    <div class="title">
+                        <h2 id="1">1. Tiểu sử cầu thủ Paul Pogba</h2>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Paul Labile Pogba (sinh ngày 15 tháng 3 năm 1993) là cầu thủ người Pháp gốc Guinée hiện đang chơi cho Manchester United 
+                            và đội tuyển bóng đá quốc gia Pháp ở vị trí tiền vệ.
+                        </p>
+                        <p>
+                            Pogba bắt đầu sự nghiệp chơi bóng đá nghiệp dư của mình cho câu lạc bộ địa phương ở Paris là Roissy-en-Brie và 
+                            US Torcy trước khi chơi cho câu lạc bộ chuyên nghiệp Le Havre vào năm 2007. Anh sang nước Anh để chơi cho 
+                            Manchester United từ năm 2009 và vụ chuyển nhượng đã gây tranh cãi khi câu lạc bộ cũ của anh đòi tố cáo câu lạc bộ 
+                            Anh về quyền sử dụng cầu thủ. Hai người anh trai của Pogba là Florentin và Mathias, cũng là cầu thủ bóng đá và 
+                            hiện đang lần lượt chơi cho Atlanta United và Manchego
+                        </p>
+                        <img src="Images/Paul Pogba.jpg" alt="">
+                        <p>
+                            Pogba là một cầu thủ trẻ quốc tế của Pháp ở cấp độ U16, U17 và U18. Ở đội tuyển U16 quốc gia, anh mang băng đội 
+                            trưởng và đã cùng đội tuyển vô địch Aegean Cup và Tournio du Val-de-Marne. Ở cấp U17, anh được thi đấu tại giải 
+                            vô địch U17 bóng đá châu Âu do UEFA tổ chức vào năm 2010. Ở cấp độ đội tuyển quốc gia, anh được triệu tập tham dự 
+                            World Cup 2014, Euro 2016 và World Cup 2018.
+                        </p>
+                        <img src="Images/Paul Pogba France.jpg" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2 id="2">2. Sự nghiệp cầu thủ Paul Pogba</h2>
+                    </div>
+                    <div class="text">
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="2.1">2.1. Sự nghiệp câu lạc bộ</h3>
+                    </div>
+                    <div class="text">
+                        <img src="Images/Paul Pogba clb.png" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="2.2">2.2. Sự nghiệp đội tuyển quốc gia</h3>
+                    </div>
+                    <div class="text">
+                        <img src="Images/Paul Pogba đtqg.png" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2 id="3">3. Danh hiệu cầu thủ Paul Pogba</h2>
+                    </div>
+                    <div class="text">
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="3.1">3.1. Câu lạc bộ</h3>
+                    </div>
+                    <div class="text">
+                        <p>-Juventus:</p>
+                        <ul>
+                            <li>Serie A: 2012-13, 2013–14, 2014-15, 2015-16</li>
+                            <li>Coppa Italia: 2014-15, 2015-16</li>
+                            <li>Supercoppa Italiana: 2012, 2013, 2015</li>
+                        </ul>
+                        <p>-Manchester United:</p>
+                        <ul>
+                            <li>Cúp EFL: 2016-17</li>
+                            <li>UEFA Europa League: 2016-17</li>
+                            <li>Siêu cúp Anh: 2016</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="3.2">3.2. ĐTQG Pháp</h3>
+                    </div>
+                    <div class="text">
+                        <ul>
+                            <li>Giải vô địch bóng đá U-20 thế giới: 2013</li>
+                            <li>Giải vô địch bóng đá châu Âu: Á quân (Euro 2016)</li>
+                            <li>Giải vô địch bóng đá thế giới: Vô địch (World Cup 2018)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="3.3">3.3. Cá nhân</h3>
+                    </div>
+                    <div class="text">
+                        <ul>
+                            <li>U-20 World Cup 2013 Quả bóng vàng</li>
+                            <li>Golden Boy: 2013</li>
+                            <li>Cầu thủ xuất sắc nhất năm của Serie A: 2013–14</li>
+                            <li>Cầu thủ trẻ xuất sắc nhất World Cup: 2014</li>
+                            <li>Giải thưởng Bravo: 2014</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+    <!-- The Modal -->
+    <div id="myModal4" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close4">&times;</span>
+          <div>
+            <div class="player-home">
+                <div class="player-img">
+                    <img src="Images/5-Harry-Maguire-HauVe.jpg" alt="">
+                </div>
+                <div class="player-text">
+                    <h1>Harry Maguire</h1>
+                    <div class="player-team">
+                        <p>Đội bóng hiện tại:</p>
+                        <a href="/Manchester-United/index.html"><p>Manchester United</p></a>
+                    </div>
+                    <div class="player-social">
+                        <a href="https://www.facebook.com/HarryMaguire93" target="_blank"><img src="Images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/HarryMaguire93" target="_blank"><img src="Images/twitter.png" alt=""></a>
+                        <a href="https://www.instagram.com/harrymaguire93/" target="_blank"><img src="Images/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-title">
+                <h1>
+                    Tiểu sử cầu thủ Harry Maguire
+                </h1>
+                <p>
+                    Harry Maguire là một cầu thủ bóng đá chuyên nghiệp người Anh 
+                    thi đấu ở vị trí trung vệ cho CLB Manchester United tại giải Premier League và ĐTQG Anh.
+                </p>
+            </div>
+
+            <div class="main-contents">
+                <div>
+                    <h2>Mục lục</h2>
+                </div>
+                <hr>
+                <div class="main-content">
+                    <a href="#1">1. Tiểu sử cầu thủ Harry Maguire</a>
+                    <a href="#2">2. Sự nghiệp cầu thủ Harry Maguire</a>
+                    <a href="#2.1" style="padding-left: 15px;">2.1. Sự nghiệp câu lạc bộ</a>
+                    <a href="#2.2" style="padding-left: 15px;">2.2. Sự nghiệp đội tuyển quốc gia</a>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="content">
+                    <div class="title">
+                        <h2 id="1">1. Tiểu sử cầu thủ Harry Maguire</h2>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Jacob Harry Maguire (sinh ngày 5 tháng 3 năm 1993) là một cầu thủ bóng đá chuyên nghiệp người Anh 
+                            thi đấu ở vị trí trung vệ cho câu lạc bộ Manchester United FC tại giải Premier League và đội tuyển quốc gia Anh.
+                        </p>
+                        <p>
+                            Sinh ra ở Sheffield, Maguire đã tham gia đội bóng thanh thiếu niên tại Sheffield United 
+                            trước khi lên đội một vào năm 2011. Anh ấy đã có tổng cộng 166 trận đấu chuyên nghiệp cho Blades 
+                            và cũng góp mặt trong Đội hình của năm của PFA cho League One nhiều lần. Năm 2014, Maguire chuyển đến Hull City 
+                            với giá 2,5 triệu bảng, sau đó anh đã được câu lạc bộ này cho Wigan Athletic mượn vào năm 2015.
+                        </p>
+                        <img src="Images/Harry Maguire.jpg" alt="">
+                        <p>
+                            Anh gia nhập Leicester City vào năm 2017 với mức phí tiềm năng 17 triệu bảng. Năm 2019, anh rời Leicester City 
+                            và gia nhập Manchester United với mức phí chuyển nhượng kỉ lục 80 triệu bảng 
+                            và đồng thời khiến anh trở thành trung vệ đắt giá nhất thế giới.
+                        </p>
+                        <p>
+                            Maguire đã chơi một trận cho đội tuyển U21 Anh vào năm 2012. 
+                            Vào tháng 10 năm 2017, anh đã có trận ra mắt đội tuyển quốc gia, 
+                            và đã được chọn vào đội hình tham dự FIFA World Cup 2018.
+                        </p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2 id="2">2. Sự nghiệp cầu thủ Harry Maguire</h2>
+                    </div>
+                    <div class="text">
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="2.1">2.1. Sự nghiệp câu lạc bộ</h3>
+                    </div>
+                    <div class="text">
+                        <img src="Images/Harry Maguire clb.png" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h3 id="2.2">2.2. Sự nghiệp đội tuyển quốc gia</h3>
+                    </div>
+                    <div class="text">
+                        <img src="Images/Harry Maguire đtqg.png" alt="">
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+  
+<!-- The Modal -->
+<div id="myModal5" class="modal">
+    
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close5">&times;</span>
+      <div>
+        <div class="player-home">
+            <div class="player-img">
+                <img src="Images/10-Marcus-Rashford-TienDao.jpg" alt="">
+            </div>
+            <div class="player-text">
+                <h1>Marcus Rashford</h1>
+                <div class="player-team">
+                    <p>Đội bóng hiện tại:</p>
+                    <a href="/Manchester-United/index.html"><p>Manchester United</p></a>
+                </div>
+                <div class="player-social">
+                    <a href="https://www.facebook.com/MarcusRashford" target="_blank"><img src="Images/facebook.png" alt=""></a>
+                    <a href="https://twitter.com/MarcusRashford" target="_blank"><img src="Images/twitter.png" alt=""></a>
+                    <a href="https://www.instagram.com/marcusrashford/" target="_blank"><img src="Images/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-title">
+            <h1>
+                Tiểu sử cầu thủ Marcus Rashford
+            </h1>
+            <p>
+                Marcus Rashford là cầu thủ bóng đá người Anh thi đấu ở vị trí tiền đạo 
+                cho câu lạc bộ bóng đá Manchester United và Đội tuyển bóng đá quốc gia Anh.
+            </p>
+        </div>
+
+        <div class="main-contents">
+            <div>
+                <h2>Mục lục</h2>
+            </div>
+            <hr>
+            <div class="main-content">
+                <a href="#1">1. Tiểu sử cầu thủ Marcus Rashford</a>
+                <a href="#2">2. Sự nghiệp cầu thủ Marcus Rashford</a>
+                <a href="#2.1" style="padding-left: 15px;">2.1. Sự nghiệp câu lạc bộ</a>
+                <a href="#2.2" style="padding-left: 15px;">2.2. Sự nghiệp đội tuyển quốc gia</a>
+                <a href="#3">3. Danh hiệu cầu thủ Marcus Rashford</a>
+                <a href="#3.1" style="padding-left: 15px;">3.1. Câu lạc bộ</a>
+                <a href="#3.2" style="padding-left: 15px;">3.2. ĐTQG Anh</a>
+                <a href="#3.3" style="padding-left: 15px;">3.3. Cá nhân</a>
+            </div>
+        </div>
+
+        <div class="contents">
+            <div class="content">
+                <div class="title">
+                    <h2 id="1">1. Tiểu sử cầu thủ Marcus Rashford</h2>
+                </div>
+                <div class="text">
+                    <p>
+                        Marcus Rashford (sinh ngày 31 tháng 10 năm 1997) là cầu thủ bóng đá người Anh 
+                        thi đấu ở vị trí tiền đạo cho câu lạc bộ bóng đá Manchester United và Đội tuyển bóng đá quốc gia Anh.
+                    </p>
+                    <p>
+                        Là cầu thủ Manchester United từ khi mười bảy tuổi, anh ghi bàn trong trận ra mắt đội một 
+                        và trận đấu Premier League đầu tiên tháng 2 năm 2016. Anh cũng ghi bàn trong trận derby Manchester đầu tiên của mình. 
+                        Rashford còn lập công trong trận ra mắt tuyển Anh vào tháng 5 năm 2016, 
+                        trở thành cầu thủ người Anh trẻ nhất ghi bàn trong trận đấu quốc tế đầu tiên của mình. 
+                        Chính nhờ những thành tích trên nên anh được lựa chọn để tham dự Euro 2016 tại Pháp và World Cup 2018 tại Nga.
+                    </p>
+                    <img src="Images/Marcus Rashford.jpg" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h2 id="2">2. Sự nghiệp cầu thủ Marcus Rashford</h2>
+                </div>
+                <div class="text">
+
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h3 id="2.1">2.1. Sự nghiệp câu lạc bộ</h3>
+                </div>
+                <div class="text">
+                    <img src="Images/Marcus Rashford clb.png" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h3 id="2.2">2.2. Sự nghiệp đội tuyển quốc gia</h3>
+                </div>
+                <div class="text">
+                    <img src="Images/Marcus Rashford đtqg.png" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h2 id="3">3. Danh hiệu cầu thủ Marcus Rashford</h2>
+                </div>
+                <div class="text">
+
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h3 id="3.1">3.1. Câu lạc bộ</h3>
+                </div>
+                <div class="text">
+                    <p>-Manchester United:</p>
+                    <ul>
+                        <li>Cúp FA: 2015–16</li>
+                        <li>Cúp Liên đoàn Anh: 2016–17</li>
+                        <li>Siêu cúp Anh: 2016</li>
+                        <li>UEFA Europa League: 2016–17</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h3 id="3.2">3.2. ĐTQG Anh</h3>
+                </div>
+                <div class="text">
+                    <ul>
+                        <li>Hạng ba UEFA Nations League: 2018–19</li>
+                        <li>Hạng bốn World Cup 2018</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h3 id="3.3">3.3. Cá nhân</h3>
+                </div>
+                <div class="text">
+                    <ul>
+                        <li>Cầu thủ trẻ xuất sắc nhất năm của Manchester United: 2015–16</li>
+                        <li>Cầu thủ xuất sắc nhất tháng của Premier League: Tháng 1 năm 2019</li>
+                        <li>Cầu thủ xuất sắc nhất tháng của Premier League: Tháng 1 năm 2019</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>      
+    
+
 
 
     
     
     <!-- FOOTER -->
     <div class="footer">
-        <p>Develope by Hiếu Minh</p>
+        <p>Made by Hiếu Minh</p>
     </div>
 
 
 </body>
 <script>
     // Get the modal
-    var modal = document.getElementById("myModal");
+    var modal1 = document.getElementById("myModal1");
+    var modal2 = document.getElementById("myModal2");
+    var modal3 = document.getElementById("myModal3");
+    var modal4 = document.getElementById("myModal4");
+    var modal5 = document.getElementById("myModal5");
+    
+    
 
     // Get the button that opens the modal
-    var btn = document.getElementById("1");
-
+    var button1 = document.getElementById("button1");
+    var button2 = document.getElementById("button2");
+    var button3 = document.getElementById("button3");
+    var button4 = document.getElementById("button4");
+    var button5 = document.getElementById("button5");
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("close")[0];
+    var span2 = document.getElementsByClassName("close2")[0];
+    var span3 = document.getElementsByClassName("close3")[0];
+    var span4 = document.getElementsByClassName("close4")[0];
+    var span5 = document.getElementsByClassName("close5")[0];
+
 
     // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-    modal.style.display = "block";
+    button1.onclick = function() {
+    modal1.style.display = "block";
+    }
+
+    button2.onclick = function() {
+    modal2.style.display = "block";
+    }
+
+    button3.onclick = function() {
+    modal3.style.display = "block";
+    }
+
+    button4.onclick = function() {
+    modal4.style.display = "block";
+    }
+
+    button5.onclick = function() {
+    modal5.style.display = "block";
     }
 
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-    modal.style.display = "none";
+    span1.onclick = function() {
+    modal1.style.display = "none";
     }
+    span2.onclick = function() {
+    modal2.style.display = "none";
+    }
+
+    span3.onclick = function() {
+    modal3.style.display = "none";
+    }
+    span4.onclick = function() {
+    modal4.style.display = "none";
+    }
+    span5.onclick = function() {
+    modal5.style.display = "none";
+    }
+
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }else if (event.target == modal2) {
+        modal2.style.display = "none";
+    }else if (event.target == modal3) {
+        modal3.style.display = "none";
+    }else if (event.target == modal4) {
+        modal4.style.display = "none";
+    }else if (event.target == modal5) {
+        modal5.style.display = "none";
     }
     }
 </script>

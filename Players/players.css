@@ -294,6 +294,10 @@ hr{
     justify-content: flex-start;
 }
 
+.main-contents div h2{
+    margin-left: 7px;
+}
+
 .main-contents hr{
     width: 100%;
 }
@@ -304,7 +308,7 @@ hr{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    
+    margin-bottom: 20px;
 }
 
 .main-content a{
@@ -312,9 +316,12 @@ hr{
     color: rgb(70, 70, 252);
     font-size: 18px;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
-
+.content{
+    margin-bottom: 70px;
+}
 
 .content img{
     width: 100%;
@@ -453,6 +460,42 @@ hr{
 }
 
 
+
+
+
+
+
+
+.Info3{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    animation: RollIn 2s;
+}
+
+
+
+
+
+
+.svd{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 15%;
+    justify-content: center;
+    margin-top: 50px;
+    animation: RollIn 2s;
+}
+
+
+
+
+
+
+
+
+
 .fixed{
     position: fixed;
     top: 20px;
@@ -461,6 +504,14 @@ hr{
     height: auto;
 }
 
+
+
+
+
+
+
+
+
 .a{
     margin-left: 4.65%;
     width: 68.7%;
@@ -468,9 +519,18 @@ hr{
 
 
 
+.fixed2{
+    position: fixed;
+    top: 20px;
+    right: 15%;
+    width: 27.5%;
+    height: auto;
+}
 
-
-
+.a2{
+    margin-left: 1.2%;
+    width: 68.7%;
+}
 
 
 
