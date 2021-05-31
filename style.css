@@ -170,8 +170,8 @@ hr{
     color: red;
 }
 
-/* 
-.video{
+
+/* .video{
     clip-path: polygon(53% 15%, 88% 15%, 88% 85%, 53% 85%);
     height: 750px;
     width: 100%;
@@ -185,10 +185,10 @@ hr{
 .video iframe{
     width: 100%;
     height: 100%;
-} */
+}
 
 
-/* @keyframes disapear{
+@keyframes disapear{
     0%{
         display: none;
         height: 0;
