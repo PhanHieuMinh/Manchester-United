@@ -3,7 +3,7 @@ var main = document.querySelector('.players')
 
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
-    if(scroll>300){
+    if(scroll>350){
         info.classList.add("fixed");
         main.classList.add("a");
     }else{
