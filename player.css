@@ -1,0 +1,643 @@
+:root{
+    --spSmall: 30px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    width: 100%;
+}
+
+.menu{
+    background-color: #c80404;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 1;
+
+}
+
+.menu-main{
+    display: flex;
+    align-items: flex-start;
+    width: 45%;
+    height: 100%;
+    
+}
+
+.menu-logo{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 45px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.menu-logo img{
+    height: 200px;
+    width: 200px;
+}
+
+.menu-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+
+.stadium-icon{
+    display: flex;
+    align-items: center;
+}
+
+.stadium-icon img{
+    height: var(--spSmall);
+    width: var(--spSmall);
+    padding-right: 20px;
+}
+
+.website-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.website-icon a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.website-icon a:hover{
+    color: black;
+}
+
+.website-icon img{
+    height: var(--spSmall);
+    width: var(--spSmall);
+    padding-right: 20px;
+}
+
+.social-icon a{
+    margin-left: 2px;
+}
+
+.social-icon a img{
+    height: var(--spSmall);
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+
+.social-icon a img:hover{
+    background-color: lightgray;
+}
+
+.share{
+    height: var(--spSmall);
+    width: var(--spSmall);
+    margin-right: 14px;
+}
+
+
+
+
+.menu-img{
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    height: 100%;
+}
+
+
+
+
+
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.home-menu{
+    height: 50px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+
+.home-menu a{
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    padding: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    font-size: 20px;
+}
+
+.home-menu a:hover{
+    color: red;
+}
+
+
+/* .video{
+    clip-path: polygon(53% 15%, 88% 15%, 88% 85%, 53% 85%);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -19%;
+    animation: disapear 1s infinite;
+    animation-delay: 4.0s;
+}
+
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes disapear{
+    0%{
+        display: none;
+        height: 0;
+    }
+    100%{
+        display: none;
+        height: 0;
+    }
+} */
+
+
+@keyframes RollIn{
+    0%{
+        transform: translate3d(-10%, 0, 0) ;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+.main-title{
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.main-title p{
+    font-size: 22px;
+}
+
+
+.Info{
+    margin-top: 50px;
+    width: 20%;
+    margin-left: 37.5%;
+    border: 1px gray solid;
+    padding: 10px;
+    animation: RollIn 2s;
+}
+
+.Info-logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px gray solid;
+}
+
+
+.Info-logo img{
+    width: 80%;
+    height: 80%;
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.Info-logo h1{
+    font-size: 30px;
+}
+
+.Info-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px gray solid;
+}
+
+.Info-text p{
+    width: 50%;
+    font-size: 100%;
+}
+
+
+.main-title{
+    animation: RollIn 2s;
+}
+
+
+.main-contents{
+    background-color: lightgray;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: RollIn 2s;
+}
+
+
+
+.main-contents div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-contents div h2{
+    margin-left: 7px;
+}
+
+.main-contents hr{
+    width: 100%;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.main-content a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(70, 70, 252);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+
+.content img{
+    width: 100%;
+}
+
+
+.title{
+    margin-left: 12.5%;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+
+.contents{
+    animation: RollIn 2s;
+}
+
+.text{
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 22px;
+
+
+}
+
+
+
+.players{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    animation: RollIn 2s;
+}
+
+.player{
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 20%;
+    height: 100%;
+}
+
+
+.player button{
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+}
+
+.player button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.player p{
+    margin-left: 5px;
+}
+
+.player img{
+    margin: 10px 0px;
+    border-radius: 50%;
+    width: 120px;
+}
+
+.player div{
+    width: 100%;
+    background-color: lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+}
+
+
+.player-shirt-number{
+    font-weight: bold;
+}
+
+.player-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.player-name:hover{
+    color:red
+}
+
+.player-postition{
+    color: gray;
+    height: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.footer{
+    margin-top: 60px;
+    text-align: center;
+    background-color: lightgray;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+.player-home{
+    display: flex;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-bottom: 2px lightgray solid;
+    animation: RollIn 2s;
+}
+
+.player-home h1{
+    height: 0px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.player-img{
+    margin-right: 25px;
+}
+
+.player-img img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.player-team{
+    font-weight: bold;
+}
+
+
+.player-team a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    font-weight: normal;
+}
+
+.player-team a:hover{
+     color: #c80404;
+}
+
+
+.player-team{
+    display: flex;
+}
+
+
+.player-social a img{
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.player-social a img:hover{
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 550px;
+    overflow-y: scroll;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .close5 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close5:hover,
+  .close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p{
+    width: 100%;
+    color: gray;
+    
+}
